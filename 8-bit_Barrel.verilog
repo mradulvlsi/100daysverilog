@@ -1,0 +1,12 @@
+module barrel_bh(out,In ,n,Lr);
+    input [7:0]In;
+    input [2:0] n;
+    input Lr;
+    output reg [7:0]out;
+    always @(*)begin 
+   if(Lr)
+         out = In << n;
+   else 
+          out = In >> n;
+    end 
+endmodule
