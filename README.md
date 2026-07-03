@@ -29,19 +29,8 @@ I'm a 2025 B.Tech ECE graduate actively working toward becoming a strong RTL Des
 "Read less, code more, verify everything."
 
 
-Repository Structure
 
-100daysverilog/
-│
-├── Day 01 - 8-bit_Barrel.verilog          # 8-bit Barrel Shifter
-├── Day 0X - mux 2x1.sv                    # 2:1 Multiplexer (Design)
-├── Day 0X - mux_tb.sv                     # Testbench for 2:1 Mux
-├── Day 0X - BidirectionalShiftRegister.v  # Bidirectional Shift Register
-│
-├── README.md
-└── (new modules added daily...)
 
-File naming will progressively follow the format: DayXX_ModuleName.v / .sv for easy tracking as the challenge continues.
 
 
 Progress Tracker
